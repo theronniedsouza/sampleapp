@@ -1,0 +1,18 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.container {
+  max-width: 100%;
+}
+
+breadcrumb > div {
+  padding: 1rem;
+}
+breadcrumb > div .breadcrumb {
+  background: transparent;
+  color: blue;
+  display: inline-block;
+  padding: 0;
+}
+breadcrumb > div .breadcrumb a {
+  padding: 0;
+}
